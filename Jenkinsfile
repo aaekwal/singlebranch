@@ -21,10 +21,5 @@ pipeline {
         echo "releasing application to staging"
         }
        }
-    stage('Production') {
-      steps {
-        echo "release to Production"
-      }
-    }
    }
   }
